@@ -21,22 +21,22 @@ const number = 234.9012390219012;
 console.log(number.toFixed(2).replace('.', ','))
 */
 
-const weight = prompt("Digite sua peso");
-const heigth = prompt("Digite seu altura");
-Number(weight);
-Number(heigth);
-const imc = (weight / (heigth * heigth)).toFixed(2);
+// const weight = prompt("Digite sua peso");
+// const heigth = prompt("Digite seu altura");
+// Number(weight);
+// Number(heigth);
+// const imc = (weight / (heigth * heigth)).toFixed(2);
 
-if (imc < 18.5) {
-  alert(imc + " Abaixo do peso");
-} else if (imc >= 18.5 && imc <= 24.9) {
-  alert(imc + " Peso normal");
-} else if (imc >= 25 && imc <= 29.9) {
-  alert(imc + " Sobrepeso");
-} else if (imc >= 30 && imc <= 34.9) {
-  alert(imc + " Obesidade grau I");
-} else if (imc >= 35 && 39.9) {
-  alert(imc + " Obesidade grau II");
-} else if (imc >= 40) {
-  alert(imc + " Obesidade grau III");
-}
+// if (imc < 18.5) {
+//   alert(imc + " Abaixo do peso");
+// } else if (imc >= 18.5 && imc <= 24.9) {
+//   alert(imc + " Peso normal");
+// } else if (imc >= 25 && imc <= 29.9) {
+//   alert(imc + " Sobrepeso");
+// } else if (imc >= 30 && imc <= 34.9) {
+//   alert(imc + " Obesidade grau I");
+// } else if (imc >= 35 && 39.9) {
+//   alert(imc + " Obesidade grau II");
+// } else if (imc >= 40) {
+//   alert(imc + " Obesidade grau III");
+// }

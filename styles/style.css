@@ -1,4 +1,35 @@
+:root {
+  --primary: #ffc7c7;
+  --secondary: #ffe2e2;
+  --light: #f6f6f6;
+  --gray: #8785a2;
+  --black: #202027;
+}
+
 body {
-  background-color: black;
-  color: white;
+  background-color: var(--light);
+  color: var(--gray);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logo img {
+  width: 40px;
+}
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 8px 32px;
 }

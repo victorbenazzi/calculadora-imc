@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Vite App</title>
+    <title>Calculadora de IMC</title>
   </head>
   <body>
-    <div id="app">Calculadora</div>
+    <header class="header">
+      <div class="logo">
+        <img src="./assets/logo-icon.png" alt="Logo" />
+        <h1>Calculadora de IMC</h1>
+      </div>
+    </header>
+
+    <div class="main">
+      <img src="./assets/person.webp" alt="Calculadora de IMC" />
+      <div class="form-wrapper">
+        <form id="form-imc">
+          <div class="input-wrapper">
+            <label for="weight">Seu peso</label>
+            <input
+              type="number"
+              name="weight"
+              id="weight"
+              placeholder="Digite seu peso em quilos" />
+          </div>
+          <div class="input-wrapper">
+            <label for="height">Sua altura</label>
+            <input
+              type="number"
+              name="height"
+              id="height"
+              placeholder="Digite sua altura em metros" />
+          </div>
+          <button class="submit-primary">Calcular</button>
+        </form>
+      </div>
+    </div>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
